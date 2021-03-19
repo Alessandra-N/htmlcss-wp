@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+/* Centratura */
+
+body {
+    width: 90%;
+    margin: auto;
+}
+
+/* css header and footer*/
+
+footer {
+    background-color: aqua;
+    height: 100px;
+}
+
+
+#logo_img {
+    height: 50px;
+}
+
+ul >li {
+    display: inline;
+    margin-right: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: darkgray;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+
+/* css center img with title */
+
+.main_square {
+    background-color: blue;
+    height: 300px;
+}
+
+.floating_titles {
+    background-color: cornflowerblue;
+    width: 20%;
+    height: 100px;
+    margin: 150px 50px;
+}
+
+/* css main section */
+
+.main_titles { 
+    background-color: darkcyan ;
+    height: 100px;
+}
+
+.columns > aside, article {
+    height: 300px;
+}
+
+aside {
+    width: 20%;
+    background-color: deepskyblue;
+}
+
+.main_article {
+    width: 60%;
+    background-color: navy;
+}
+
+/* Utility */
+.float {
+    float: left
+}
+
+.max_width {
+    width: 100%;
+}
+
+.margin_bot {
+    margin-bottom: 1rem;
+}
+
