@@ -1,3 +1,4 @@
+/* css common rules */
 *{
     box-sizing: border-box;
     margin: 0;
@@ -9,16 +10,19 @@
     display: table;
     content: "";
 }
+/* /css common rules */
+
 
 /* Centratura */
-
 body {
     width: 90%;
     margin: auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+/* /Centratura */
+
 
 /* css header*/
-
 #logo_img {
     height: 50px;
 }
@@ -31,9 +35,10 @@ ul >li {
 a {
     text-decoration: none;
     color: darkgray;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-transform: uppercase;
 }
+/* /css header*/
+
 
 /* css main */
     /* css center image */
@@ -43,7 +48,7 @@ a {
     background-size: cover;
     background-position: center;
     border-radius: 1rem;
-    filter: brightness(50%);
+    filter: brightness(80%);
     width: 100%;
     height: 40rem;
     position: relative;
@@ -66,27 +71,44 @@ a {
 .floating_titles > p {
     font-size: 25px;
 }
+    /* /css center image */
+
 
     /* css title article */
-
 .main_titles { 
-    background-color: darkcyan ;
-    height: 100px;
+    padding: 3rem 0;
     float: left;
+    width: 100%;
 }
 
-.columns > aside, article {
-    height: 300px;
+.main_titles > h2 {
+    font-size: 18px;
+    font-weight: 100;
+    color:darkgray;
+}
+    /* /css title article */
+
+    /* css columns article */
+
+.col_img {
+    border-radius: 1rem;
+    filter: brightness(80%);
+    height: 20rem;
+    object-fit: cover;
+    width: 100%;
 }
 
 aside {
-    width: 20%;
-    background-color: deepskyblue;
+    width: 25%;
 }
 
 .main_article {
-    width: 60%;
-    background-color: navy;
+    width: 45%;
+    margin: 0 2.5%
+}
+
+.columns p {
+    color: darkgray;
 }
 
 /* css footer */
@@ -100,9 +122,6 @@ footer {
     float: left
 }
 
-.max_width {
-    width: 100%;
-}
 
 .margin_bot {
     margin-bottom: 1rem;
