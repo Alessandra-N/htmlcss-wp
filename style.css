@@ -17,13 +17,7 @@ body {
     margin: auto;
 }
 
-/* css header and footer*/
-
-footer {
-    background-color: aqua;
-    height: 100px;
-}
-
+/* css header*/
 
 #logo_img {
     height: 50px;
@@ -41,25 +35,44 @@ a {
     text-transform: uppercase;
 }
 
-/* css center img with title */
+/* css main */
+    /* css center image */
 
-.main_square {
-    background-color: blue;
-    height: 300px;
+.main_img {
+    background-image: url(img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    filter: brightness(50%);
+    width: 100%;
+    height: 40rem;
+    position: relative;
+    float: left;
 }
 
 .floating_titles {
-    background-color: cornflowerblue;
-    width: 20%;
-    height: 100px;
-    margin: 150px 50px;
+    width: 50%;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    float: left;
+    margin: 23rem 5rem;
 }
 
-/* css main section */
+.floating_titles > h2 {
+    font-size: 35px;
+}
+
+.floating_titles > p {
+    font-size: 25px;
+}
+
+    /* css title article */
 
 .main_titles { 
     background-color: darkcyan ;
     height: 100px;
+    float: left;
 }
 
 .columns > aside, article {
@@ -74,6 +87,12 @@ aside {
 .main_article {
     width: 60%;
     background-color: navy;
+}
+
+/* css footer */
+footer {
+    background-color: aqua;
+    height: 100px;
 }
 
 /* Utility */
